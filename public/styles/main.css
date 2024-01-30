@@ -77,7 +77,7 @@ input {
 .centered-shit {
     display: flex;
     justify-content: center;
-
+    align-content: center;
 }
 
 .back-button {
