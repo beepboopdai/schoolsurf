@@ -55,8 +55,8 @@ h2.subtitle {
 
 button {
     padding: 10px;
-    background-color: #4b4b4b; /* Green background color */
-    color: white; /* White text color */
+    background-color: #4b4b4b; 
+    color: white; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -68,8 +68,24 @@ button:hover {
 
 input {
     padding: 10px;
-    background-color: #ffffff; /* Green background color */
-    color: rgb(0, 0, 0); /* White text color */
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
     border-radius: 4px;
     border-color: black;
+} 
+
+.centered-shit {
+    display: flex;
+    justify-content: center;
+
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+}
+
+#invisButton {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
 }

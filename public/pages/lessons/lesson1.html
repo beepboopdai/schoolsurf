@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <title>Lesson 1: SchoolSurf 🏄‍♂️</title>
+</head>
+<body>
+    <h1>Lesson 1</h1>
+    <h2 class="subtitle">IFrames in HTML</h2>
+
+    <hr>
+
+    <div class="centered-shit">
+        <iframe src="https://5a87bd54-622b-468b-ac48-18786b7c14a0-00-335b9pdkuva8x.picard.replit.dev/" width="1000" height="550"></iframe>
+    </div>
+
+    <div class="back-button">
+        <button onclick="window.location.href = '../lessons.html'">← Back</button>
+    </div>
+
+    <p class="centered-shit">
+        Above this text is an IFrame. You can interact with it! Try it now.
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Ipsa odit nesciunt maiores pariatur impedit repellat,
+        natus optio repudiandae doloribus quasi blanditiis unde,
+        ut voluptas est itaque! Cupiditate vitae praesentium perferendis.
+    </p>
+
+    <!-- dark mode toggle -->
+    <div class="toggle-container">
+        <audio id="light">
+            <source src="../sources/audio/lightswitch.mp3" type="audio/mp3">
+            Sorry, your browser doesn't support the audio feature.
+        </audio>
+        <label class="toggle-label" for="darkModeToggle">Dark Mode</label>
+        <input type="checkbox" id="darkModeToggle" class="toggle-input">
+    </div>
+
+    <script src="../../scripts/darkMode.js"></script>
+</body>
+</html>
