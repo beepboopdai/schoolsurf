@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <title>SchoolSurf 🏄‍♂️</title>
+</head>
+<body class="light-mode">
+
+    <h1>🏄‍♂️ SchoolSurf 🏄‍♂️</h1>
+
+    <h2 class="subtitle">Open source learning.</h2>
+
+    <hr>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Hey, here's a cool video!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NuyzuNBFWxQ?si=L7tBDFd9lYYdp6fR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+            <h2>Now, let's get some music to code to!</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5trt9i14X7j?utm_source=generator" width="560" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+    
+    <hr>
+
+    <button onclick="window.location.href = 'pages/login.html'">Lessons</button>
+    <button onclick="window.location.href = 'pages/404.html'">Settings</button>
+    
+    <p>SchoolSurf Industries 2024 <br> by beepboopdai && BrodXI</p>
+    
+    <!-- dark mode toggle -->
+    <div class="toggle-container">
+        <audio id="light">
+            <source src="sources/audio/lightswitch.mp3" type="audio/mp3">
+            Sorry, your browser doesn't support the audio feature.
+        </audio>
+        <label class="toggle-label" for="darkModeToggle">Dark Mode</label>
+        <input type="checkbox" id="darkModeToggle" class="toggle-input">
+    </div>
+
+    <script src="scripts/darkMode.js"></script>
+</body>
+</html>
