@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
     <title>SchoolSurf: Lessons 🏄‍♂️</title>
 </head>
 <body>
-    
+    <h1>Lessons</h1>
+    <hr>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            empty space
+        </div>
+    </div>
+
+
+
+    <!-- dark mode toggle -->
+    <div class="toggle-container">
+        <audio id="light">
+            <source src="../sources/audio/lightswitch.mp3" type="audio/mp3">
+            Sorry, your browser doesn't support the audio feature.
+        </audio>
+        <label class="toggle-label" for="darkModeToggle">Dark Mode</label>
+        <input type="checkbox" id="darkModeToggle" class="toggle-input">
+    </div>
+    <script src="../scripts/darkMode.js"></script>
 </body>
 </html>
