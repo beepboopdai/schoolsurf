@@ -13,8 +13,11 @@
     <hr>
 
     <div class="centered">
-        <iframe src="https://d298b709-61c8-4364-b6f9-96ff895e4f36-00-3jb3g5tnkl6gq.janeway.replit.dev" width="1000" height="550"></iframe>
+        <iframe id='ultraviolet' src="https://d298b709-61c8-4364-b6f9-96ff895e4f36-00-3jb3g5tnkl6gq.janeway.replit.dev"
+         width="1000" height="550" allowfullscreen></iframe> <!-- jesus this iframe is getting long -->
+        <button onclick="toggleFullscreen()">⛶ Fullscreen</button>
     </div>
+
 
     <div class="back-button">
         <button onclick="window.location.href = '../lessons.html'">← Back</button>
@@ -35,5 +38,6 @@
     </div>
 
     <script src="../../scripts/darkMode.js"></script>
+    <script src="../../scripts/iFrameFullscreen.js"></script>
 </body>
 </html>
