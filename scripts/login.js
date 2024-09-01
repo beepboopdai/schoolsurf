@@ -1,7 +1,7 @@
 const submitButton = document.getElementById('submitButton');
 const randomHref = document.getElementById('notAButton');
 
-const pass = "test_pass"
+const pass = "iloveschoolsurf"
 
 submitButton.addEventListener('click', () => {
     const input = document.getElementById('passwordInput').value;
